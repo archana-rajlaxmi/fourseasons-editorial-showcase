@@ -18,9 +18,6 @@ export default {
 			}
 		},
 		extend: {
-			fontFamily: {
-				poppins: ['Poppins', 'sans-serif'],
-			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -64,12 +61,6 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				},
-				seasonal: {
-					spring: 'hsl(var(--seasonal-spring))',
-					summer: 'hsl(var(--seasonal-summer))',
-					autumn: 'hsl(var(--seasonal-autumn))',
-					winter: 'hsl(var(--seasonal-winter))'
 				}
 			},
 			borderRadius: {
